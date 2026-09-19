@@ -1,0 +1,9 @@
+menu "Virtual cube bridge"
+config VCUBE_TEST_INPUT
+    bool "Enable local UART/GPIO test moves (never forwarded over BLE)"
+    default n
+    help
+        Development-only local state-engine inputs. They are disabled while
+        a physical cube is connected or synchronizing. Enable this only for
+        experimenting without a physical cube.
+endmenu

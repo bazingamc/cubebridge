@@ -1,0 +1,13 @@
+# BLE: 使用 NimBLE 协议栈 (双角色: 外设伪造 GAN + 主机连接实体魔方)
+CONFIG_BT_ENABLED=y
+CONFIG_BT_NIMBLE_ENABLED=y
+CONFIG_BT_NIMBLE_ROLE_PERIPHERAL=y
+CONFIG_BT_NIMBLE_ROLE_CENTRAL=y
+CONFIG_BT_NIMBLE_MAX_CONNECTIONS=3
+# NimBLE host + BT 控制器固定在核 1, 避免与核 0 的 main 任务抢占导致 IDLE0 看门狗误报
+CONFIG_BT_NIMBLE_PINNED_TO_CORE_1=y
+CONFIG_BT_NIMBLE_PINNED_TO_CORE=1
+CONFIG_BT_CTRL_PINNED_TO_CORE_1=y
+CONFIG_BT_CTRL_PINNED_TO_CORE=1
+# Flash 容量按目标芯片区分: 见 sdkconfig.defaults.esp32 / sdkconfig.defaults.esp32s3
+# (idf.py set-target 时自动合并对应目标的 defaults)

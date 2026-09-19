@@ -1,0 +1,41 @@
+# ESP-IDF 构建产物
+build/
+build_*/
+!build/README.md
+
+# sdkconfig (由 menuconfig / 构建自动生成, 由 sdkconfig.defaults 派生)
+sdkconfig
+sdkconfig.old
+
+# ESP-IDF 组件管理
+managed_components/
+dependencies.lock
+
+# CMake 相关
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.cmake
+
+# VSCode (settings.json 含本机 ESP-IDF 路径, 不提交)
+.vscode/
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# IDE / 编辑器
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+
+# 历史量产工具的本地产物 (未入版本库)
+/production-output/
+
+__pycache__/
