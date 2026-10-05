@@ -1,3 +1,33 @@
+<!-- 置顶推广：AI_CFOP 智能魔方训练 App -->
+
+<div align="center">
+  <a href="https://www.aicfop.com">
+    <img src="https://www.aicfop.com/assets/logo.png" alt="AI_CFOP" width="96">
+  </a>
+</div>
+
+## 🧩 不想转接？试试 AI_CFOP
+
+**[AI_CFOP](https://www.aicfop.com)** 是本人独立开发的另一个项目，一款集练习、复盘、统计、AI 分析于一体的智能魔方训练 App。它**支持市面大部分智能魔方**，无需任何转接硬件，App 直连魔方即可自动记录转动与计时；跨平台支持 Windows / macOS / Android / iOS。
+
+| 特色 | 说明 |
+| --- | --- |
+| 🔗 智能魔方直连 | 蓝牙连接后自动记录转动与还原过程，完成自动计时与数据记录 |
+| 🔍 AI 深度复盘 | Cross / F2L / OLL / PLL 各阶段逐帧分析，结合耗时、TPS、卡顿、废步等数据定位关键问题 |
+| 🎯 多种特色训练 | Cross / F2L / OLL / PLL 专项、公式记忆、快速反应、节拍器慢拧等 |
+| 🗓️ 智能训练计划 | 根据训练数据与薄弱环节，生成更有针对性的训练安排 |
+| 🏆 每周周赛 | 每周固定打乱挑战，与魔友同台比拼，排行榜前三名可获 AI 点数奖励 |
+| 📊 多维数据统计 | PB / Ao5 / Ao12、阶段耗时、TPS、趋势变化、正确率一目了然 |
+| 💾 数据管理 | CSV 导出、csTimer 数据导入、PDF 训练报告 |
+
+📥 **立即下载：** iOS [App Store](https://apps.apple.com/cn/app/ai-cfop/id6804411121) · Windows / macOS / Android [官网下载](https://www.aicfop.com)
+
+🌐 官网 [www.aicfop.com](https://www.aicfop.com) · QQ 群 [322267527](https://qm.qq.com/q/322267527) · 邮箱 [57612742@qq.com](mailto:57612742@qq.com)
+
+> 💡 App 免费下载使用，部分 AI 功能与高级功能需要 VIP 或 AI 点数。
+
+---
+
 # cubebridge
 
 ESP32 / ESP32-S3 智能魔方蓝牙网关：连接实体智能魔方（魔域 MHC、魔域 WCU_MY3、奇艺 QY-QYSC），将转动、状态和电量转换为 GAN Gen2 协议，供支持该协议的手机 App 使用。
